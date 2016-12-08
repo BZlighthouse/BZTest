@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BZTest'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = '正式测试.'
 
 
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
    #s.dependency 'Masonry','~> 1.0.1'
-   s.dependency 'AFNetworking', '~> 3.1.0'
+   #s.dependency 'AFNetworking', '~> 3.1.0'
    #s.dependency 'MJExtension', '~> 3.0.13'
    #s.dependency 'FMDB', '~> 2.6.2'
    #s.dependency 'MJRefresh', '~> 3.1.12'
@@ -35,6 +35,6 @@ TODO: Add long description of the pod here.
    #s.dependency 'JHChainableAnimations', '~> 1.3.0'
    #s.dependency 'SSZipArchive', '~> 1.6.2'
    #s.dependency 'SocketRocket', '~> 0.5.1'
-   #s.dependency 'SVProgressHUD', '~> 2.1'
+   s.dependency 'SVProgressHUD', '~> 2.1'
    #s.dependency 'KSYMediaPlayer_iOS'
 end
