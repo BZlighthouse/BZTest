@@ -8,7 +8,7 @@
 
 #import "BZTest.h"
 #import <SVProgressHUD/SVProgressHUD.h>
-#import <KSYMediaPlayer/KSYMediaPlayer.h>
+//#import <KSYMediaPlayer/KSYMediaPlayer.h>
 
 @implementation BZTest
 + (void)test
