@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BZTest'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = '正式测试.'
 
 
@@ -36,5 +36,5 @@ TODO: Add long description of the pod here.
    s.dependency 'SSZipArchive', '~> 1.6.2'
    s.dependency 'SocketRocket', '~> 0.5.1'
    s.dependency 'SVProgressHUD', '~> 2.1'
-   s.dependency 'KSYMediaPlayer_iOS'
+   #s.dependency 'KSYMediaPlayer_iOS'
 end
