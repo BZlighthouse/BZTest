@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BZTest'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = '正式测试.'
 
 
@@ -13,7 +13,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/BZlighthouse/BZTest'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BZlighthouse' => '282066546@qq.com' }
-  s.source           = { :git => 'file://Users/zhoubing/Desktop/BZTest', :tag => s.version}
+  s.source           = { :git => 'file://Users/zhoubing/Desktop/BZTest/BZTest', :tag => s.version}
 
   s.ios.deployment_target = '8.0'
   s.requires_arc = true   
