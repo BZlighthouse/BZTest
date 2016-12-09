@@ -1,0 +1,70 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BZTest (0.3.0):
+    - AFNetworking (~> 3.1.0)
+    - FMDB (~> 2.6.2)
+    - JHChainableAnimations (~> 1.3.0)
+    - KSYMediaPlayer_iOS
+    - Masonry (~> 1.0.1)
+    - MJExtension (~> 3.0.13)
+    - MJRefresh (~> 3.1.12)
+    - MLLabel (~> 1.10.2)
+    - SDWebImage (~> 4.0.0-beta2)
+    - SocketRocket (~> 0.5.1)
+    - SSZipArchive (~> 1.6.2)
+    - SVProgressHUD (~> 2.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - JHChainableAnimations (1.3.0)
+  - KSYMediaPlayer_iOS (1.8.0)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - MLLabel (1.10.2)
+  - SDWebImage (4.0.0-beta2):
+    - SDWebImage/Core (= 4.0.0-beta2)
+  - SDWebImage/Core (4.0.0-beta2)
+  - SocketRocket (0.5.1)
+  - SSZipArchive (1.6.2)
+  - SVProgressHUD (2.1.1)
+
+DEPENDENCIES:
+  - BZTest (from `../`)
+
+EXTERNAL SOURCES:
+  BZTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BZTest: 065cfd7d3ba5c608769c3a5f48859b9ba1c7fdba
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  JHChainableAnimations: 22085fcb04ca87349e584573558e637f659fd769
+  KSYMediaPlayer_iOS: aaa87c9292d3c08556babc6b4db0615cc0dff262
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MLLabel: 71315bd11dc45bebba159e07427496ea8bfc2b0a
+  SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SSZipArchive: 428eb1ac8d37dd133404d30f422b23958c1f9acc
+  SVProgressHUD: 1127180503b9a308ddf7006f3cc58fc05cc1092d
+
+PODFILE CHECKSUM: bbde01c495a20c9dc2c1d3de8997b6db8b263877
+
+COCOAPODS: 1.2.0.beta.1
