@@ -1,6 +1,0 @@
-framework module BZTest {
-  umbrella header "BZTest.h"
-
-  export *
-  module * { export * }
-}
